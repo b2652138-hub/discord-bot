@@ -232,7 +232,7 @@ class ComplaintModal(ui.Modal):
         self.field_proofs = ui.TextInput(
             label="Доказательства",
             style=discord.TextStyle.paragraph,
-            placeholder="Ссылки на YouTube / Imgur / Streamable и т.п.",
+            placeholder="Ссылки на YouTube / Imgur.",
             required=True,
             max_length=1000,
         )
